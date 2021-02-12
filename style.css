@@ -6,6 +6,7 @@ header{
 h1{
     text-transform: uppercase;
     font-family: 'Hannalei';
+    font-size: 500%;
 }
 
 @font-face{
@@ -66,4 +67,25 @@ table.tercera td,th{
 }
 table.tercera tbody{
     border: red 2px dotted;
+}
+table.cuarta{
+    border: red 2px solid;
+    margin-top: 3em;
+    width: 85%;
+    ;
+    background-color: yellow;
+    border-collapse: separate;
+
+}
+table.cuarta td{
+    border: red 2px solid;
+}
+table.cuarta tr td{
+    padding: 3em 0em;
+    color: blue;
+    font-weight: bold;
+}
+caption{
+    font-size: 110%;
+    color: blue;
 }
